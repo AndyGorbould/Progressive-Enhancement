@@ -1,16 +1,23 @@
-/* Text color: RGB(38, 25, 17)
-Background color: RGB(249, 246, 239)
-Additional color(s): RGB(102, 74, 50), RGB(191, 175, 160) */
-
 body {
-    background-color: rgb(221, 214, 198);
+    max-width: 90%;
+    margin-left: 10%;
+    margin-right: 10%;
+    background-color: rgb(194, 194, 194);
+    background-image: url("img/farming-china.jpg");
+    background-blend-mode: soft-light;
+    background-repeat: no-repeat;
+    background-position: bottom right;
+    background-size: cover;
 }
 
 
 
 h1,
 h2 {
-    font-family: 'Oswald', sans-serif;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 800;
+    font-style: bold;
+    margin-left: 25%;
 
 }
 
@@ -23,7 +30,8 @@ td,
 caption,
 blockquote,
 strong {
-    font-family: 'Quattrocento', serif;
+    font-family: 'Open Sans', sans-serif;
+    color: rgb(79, 45, 45);
 }
 
 .foot {
@@ -52,3 +60,80 @@ mark.good {
 mark.bad {
     background-color: rgb(255, 0, 0);
   }
+
+
+
+
+
+
+  .vil{
+      display: inline;
+      color: rgb(199, 111, 56);
+  }
+
+  .far{
+      display: inline;
+      color: rgb(237, 215, 73);
+  }
+
+
+
+  .subtitle{
+      text-align: right;
+      background: yellow;
+  }
+
+
+/* I know that using the asterix is bad practise, but I couldn't get the other method to work today!! */
+  *.good {
+    text-transform: capitalize;
+    color: rgb(255, 0, 0);
+}
+
+*.bad {
+    text-transform: capitalize;
+    color: rgb(37, 255, 37);
+}
+
+
+img{
+    max-width: 75%;
+    justify-content: center;
+    margin-left: 15%;
+}
+
+.float-img-l {
+    max-width: 35%;
+    float: left;
+    margin: 0.5em;    
+}
+
+.float-img-r {
+    max-width: 35%;
+    float: right;
+    margin: 0.5em;    
+}
+
+
+table{
+    text-align: center;
+    /* display: block; */
+    margin-left: auto;
+    margin-right: auto;
+    
+}
+
+p.small{
+    font-size: 0.6em;
+    color: rgb(86, 86, 86);
+    text-align: center;
+}
+
+tr:nth-child(even) {
+    background: rgb(129, 129, 129, 0.5);
+    text-align: center;
+}
+
+tr:nth-child(odd) {
+    background: rgba(255, 255, 255, 0.5)
+}

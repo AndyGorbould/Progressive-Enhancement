@@ -1,0 +1,54 @@
+/* Text color: RGB(38, 25, 17)
+Background color: RGB(249, 246, 239)
+Additional color(s): RGB(102, 74, 50), RGB(191, 175, 160) */
+
+body {
+    background-color: rgb(221, 214, 198);
+}
+
+
+
+h1,
+h2 {
+    font-family: 'Oswald', sans-serif;
+
+}
+
+p,
+ul,
+li,
+th,
+tr,
+td,
+caption,
+blockquote,
+strong {
+    font-family: 'Quattrocento', serif;
+}
+
+.foot {
+    color: rgb(102, 74, 50);
+}
+
+a {
+    all: unset;
+    font-style: oblique;
+    color: rgb(191, 175, 160);
+}
+
+a:visited {
+    color: darkgoldenrod;
+}
+
+
+a:hover {
+    color: brown;
+}
+
+mark.good {
+    background-color: rgb(37, 255, 37);
+  }
+
+mark.bad {
+    background-color: rgb(255, 0, 0);
+  }
